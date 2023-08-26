@@ -9,7 +9,6 @@ public class DuplicateNumber2 {
 
     public static void main(String args[]){
         Integer arr[] = new Integer[]{1,3,4,2,3};
-        System.out.println(arr);
         Integer number = findRepeatedNumber(arr);
         System.out.println( "Number = " + number);
     }

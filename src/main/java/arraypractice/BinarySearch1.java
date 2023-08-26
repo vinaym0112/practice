@@ -6,7 +6,6 @@ public class BinarySearch1 {
 
     public static void main(String args[]){
         Integer arr[] = new Integer[]{-1,0,3,5,9,12};
-        System.out.println(arr);
         Integer index = binarySearch(arr, 9);
         System.out.println( "Index = " + index);
     }

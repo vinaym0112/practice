@@ -11,7 +11,6 @@ public class SearchInsertPosition3 {
 
     public static void main(String args[]){
         Integer arr[] = new Integer[]{-1,1,2,5,6,9,13};
-        System.out.println(arr);
         Integer number = searchInsertPosition(arr,0);
         System.out.println( "Number = " + number);
     }
